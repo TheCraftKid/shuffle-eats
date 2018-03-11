@@ -5,8 +5,9 @@ import About from './views/About.vue';
 
 Vue.use(Router);
 
-const router = new Router({
+export default new Router({
   mode: 'history',
+  base: '/eat-shuffle',
   routes: [
     {
       path: '/',
@@ -20,7 +21,3 @@ const router = new Router({
     },
   ],
 });
-
-export default {
-  router,
-};
