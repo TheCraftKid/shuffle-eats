@@ -1,9 +1,9 @@
 <template>
   <md-card>
     <section id="project">
-      <md-subheader class="md-primary">About EatShuffle</md-subheader>
+      <md-subheader class="md-primary">About ShuffleEATS</md-subheader>
       <div class="description-box">
-        <p>EatShuffle was built over a weekend for the families that could never
+        <p>ShuffleEATS was built over a weekend for the families that could never
           decide what to eat out.
         </p>
         <md-button class="md-primary learn-more" href="https://sites.google.com/view/willie-projects/shuffleeats">

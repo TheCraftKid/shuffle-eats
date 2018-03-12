@@ -3,7 +3,7 @@ import VueMaterial from 'vue-material';
 import 'vue-material/dist/vue-material.min.css';
 import 'vue-material/dist/theme/default.css';
 
-import EatShuffleApp from './EatShuffleApp.vue';
+import ShuffleEatsApp from './ShuffleEatsApp.vue';
 import router from './router';
 import './registerServiceWorker';
 
@@ -12,5 +12,5 @@ Vue.use(VueMaterial);
 
 new Vue({
   router,
-  render: h => h(EatShuffleApp),
+  render: h => h(ShuffleEatsApp),
 }).$mount('#app');

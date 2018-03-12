@@ -30,7 +30,7 @@
       </div>
 
       <div class="md-toolbar-row md-toolbar-offset">
-        <router-link to="/" class="md-display-1"><span class="pointer-hover app-title">EatShuffle</span></router-link>
+        <router-link to="/" class="md-display-1"><span class="pointer-hover app-title">ShuffleEATS</span></router-link>
       </div>
     </md-app-toolbar>
     <md-app-content>
