@@ -30,7 +30,7 @@
       </div>
 
       <div class="md-toolbar-row md-toolbar-offset">
-        <router-link to="/" class="md-display-1"><span class="pointer-hover">EatShuffle</span></router-link>
+        <router-link to="/" class="md-display-1"><span class="pointer-hover app-title">EatShuffle</span></router-link>
       </div>
     </md-app-toolbar>
     <md-app-content>
@@ -61,6 +61,7 @@ export default {
 .md-app {
   height: 100vh;
 }
+
 .md-app-content {
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
   text-align: center;
@@ -74,7 +75,12 @@ export default {
 .pointer-hover:visited,
 .pointer-hover:link,
 .pointer-hover:active {
-  cursor: hover;
+  cursor: pointer;
   text-decoration: none;
+}
+
+.app-title {
+  font-family: 'Open Sans', 'Roboto', 'Noto', sans-serif;
+  font-style: italic;
 }
 </style>
