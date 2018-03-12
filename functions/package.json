@@ -1,6 +1,7 @@
 {
-  "name": "functions",
-  "description": "Cloud Functions for Firebase",
+  "name": "shuffle-eats-functions",
+  "description": "Cloud Functions for ShuffleEats",
+  "version": "1.0.0",
   "scripts": {
     "serve": "firebase serve --only functions",
     "shell": "firebase experimental:functions:shell",
