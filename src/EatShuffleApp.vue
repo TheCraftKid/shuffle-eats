@@ -17,12 +17,12 @@
             <md-menu-content>
               <md-menu-item>
                 <router-link to="/about" tag="a"><span class="pointer-hover">About</span></router-link>
-                <md-icon>near_me</md-icon>
+                <md-icon>info_outline</md-icon>
               </md-menu-item>
 
               <md-menu-item>
                 <span>Send Feedback</span>
-                <md-icon>phone</md-icon>
+                <md-icon>feedback</md-icon>
               </md-menu-item>
             </md-menu-content>
           </md-menu>
