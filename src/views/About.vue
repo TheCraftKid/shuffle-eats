@@ -42,6 +42,7 @@ span {
 .md-card {
   padding: 16px;
   margin: 0px;
+  max-width: 600px;
 }
 
 .description-box, .social-list {
