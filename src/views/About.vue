@@ -35,16 +35,13 @@ export default {
 </script>
 
 <style scoped>
-* {
-  text-align: start;
-}
-
 span {
   display: inline-block;
 }
 
 .md-card {
   padding: 16px;
+  margin: 0px;
 }
 
 .description-box, .social-list {
