@@ -47,12 +47,28 @@ export default {
       ];
     },
   },
-
 };
 </script>
 
 <style scoped>
+#results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.results-card, .recent-results {
+  margin: 16px;
+}
+
+.results-card {
+  max-width: 320px;
+}
+
 .recent-results {
-  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 600px;
 }
 </style>

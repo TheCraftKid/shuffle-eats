@@ -1,5 +1,6 @@
 <template>
-  <md-card class="recent-results grid-container">
+  <md-card class="recent-results container">
+    <md-subheader class="md-primary">Recent Shuffles</md-subheader>
     <md-card v-for="result in results" :key="result.name">
       <md-card-media-cover md-solid>
         <md-card-media md-ratio="1:1">
@@ -19,7 +20,7 @@
 
 <script>
 export default {
-  name: 'eat-results',
+  name: 'recent-results',
   props: [
     'results',
   ],
@@ -27,9 +28,7 @@ export default {
 </script>
 
 <style scoped>
-.grid-container {
-  display: grid;
-  min-width: 1024px;
-  grid-template-columns: repeat(3, 1fr);
+.container {
+  padding: 16px;
 }
 </style>
