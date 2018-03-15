@@ -1,5 +1,5 @@
 <template>
-  <md-app>
+  <md-app md-waterfall md-mode="flexible" :md-scrollbar="false">
     <md-app-toolbar class="md-large md-primary">
       <div class="md-toolbar-row">
         <div class="md-toolbar-section-start">
@@ -16,12 +16,16 @@
 
             <md-menu-content>
               <md-menu-item>
-                <router-link to="/about" tag="a"><span class="pointer-hover">About</span></router-link>
+                <router-link to="/about" tag="a">
+                  <span class="pointer-hover">About</span>
+                </router-link>
                 <md-icon>info_outline</md-icon>
               </md-menu-item>
 
               <md-menu-item>
-                <span>Send Feedback</span>
+                <a href="https://goo.gl/forms/gdBJwFrqdSHXD1Rn2">
+                  <span>Send Feedback</span>
+                </a>
                 <md-icon>feedback</md-icon>
               </md-menu-item>
             </md-menu-content>
@@ -30,7 +34,9 @@
       </div>
 
       <div class="md-toolbar-row md-toolbar-offset">
-        <router-link to="/" class="md-display-1"><span class="pointer-hover app-title">ShuffleEATS</span></router-link>
+        <router-link to="/" class="md-display-1">
+          <span class="pointer-hover app-title">ShuffleEATS</span>
+        </router-link>
       </div>
     </md-app-toolbar>
     <md-app-content>
